@@ -7,9 +7,9 @@ function afficherRegions()
             url:"index.php/Welcome/afficherRegions",
             success:function(data)
             {
-                $("#ville").empty();
-                $("#region").empty();
-                $("#region").append(data);
+                $("#Villes").empty();
+                $("#Regions").empty();
+                $("#Regions").append(data);
             },
             error:function()
             {
@@ -29,8 +29,8 @@ function afficherVille(id)
             data:"id="+id,
             success:function(data)
             {
-                $("#ville").empty();
-                $("#ville").append(data);
+                $("#Villes").empty();
+                $("#Villes").append(data);
             },
             error:function()
             {
