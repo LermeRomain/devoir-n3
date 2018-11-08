@@ -12,8 +12,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <p>
 		<label>User</label> : <input type="text" id="User" value=""/><br>
 		<input type="button"  value="connexion" id="connexion"><br>
-	<div id="region"></div><br>
-	<div id="ville"></div><br>
     </p>
 </form>
 </body>
